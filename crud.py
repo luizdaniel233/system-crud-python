@@ -2,7 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 import os
 import json
-con = mysql.connector.connect(host='localhost',database='agenda',user='root',password='21092001')
+con = mysql.connector.connect(host='xxxx',database='xxxx',user='xxxx',password='xxxxx')
 os.system("clear")
 if con.is_connected():
     db_info = con.get_server_info()
