@@ -121,7 +121,7 @@ if con.is_connected():
         print("2-Register")
         print("3-Delete")
         print("4-Edit")
-        print("5-Importar Dados em Massa(Json)")
+        print("5-Importar Dados em Massa(,Json)")
         print("6-Exit")
         firstc = int(input("Type command:\n"))
         
