@@ -7,7 +7,7 @@ import os
 import json
 import qrcode
 #-----conexão BD -----
-con = mysql.connector.connect(host='localhost',database='agenda',user='root',password='21092001')
+con = mysql.connector.connect(host='xxxxx',database='xxx',user='xxxxx',password='xxxxx')
 os.system("clear")
 if con.is_connected():
     db_info = con.get_server_info()
