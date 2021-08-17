@@ -151,7 +151,7 @@ while True:
         qr.make(fit = True)
 
         img = qr.make_image(fill_color="black", back_color="white")
-        #img.save('myqrlink.png')
+        img.save('myqrcode.png')
         img.show()
         
 
